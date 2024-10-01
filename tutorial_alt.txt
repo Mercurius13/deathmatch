@@ -1,0 +1,71 @@
+At the start of each game, a coin is flipped to determine who goes first.
+Enemy attacks will only take effect after your turn. Likewise, your attacks will only take effect after the enemy's turn.
+In every turn, you must throw a combination of DIE to perform DICE ACTIONS in order to defend enemy attacks and deal damage to the enemy.
+Actions have a maximum value of either 10 or 20. Some actions also have a cooldown.
+To win, you must reduce your enemy's health to 0.
+RED die are used for ATTACKING. BLUE die are used for SHIELDING. GREEN die are used for HEALING. BLACK die are used for CASTING.
+There are three character classes. ROGUE, LANCELOT and MASTER.
+
+1. ROGUE is a character class that focuses on dealing damage. ROGUE can throw two die, but not two of the same colour.
+    She has 50 HP.
+    She can only throw red, blue and green die.
+    Her actions are as follows:
+    BLUE-
+    (20)Shield is a strong block. However if you roll 15 or above, your block gets multiplied by 1.5.
+    (10)Parry is a good action to counter enemy attack. You block, and if you roll 5 or less, you throw an additional red dice.
+
+    RED-
+    (20)Cleave is a strong attack. However if you roll 15 or above, your damage gets multiplied by 1.5.
+    (10)Riposte is a good action to counter enemy attack. You block, and if all the damage is blocked, you attack. However if all the damage is not blocked, you throw a green dice.
+    (10)Blood Pact is a risky action. You roll a dice to deal damage to yourself, but you deal twice the damage to the enemy on your next attack. Furthermore, you roll an additional red dice. Do note that you cannot use Blood Pact twice in the same turn.
+
+    GREEN-
+    (20)Tourniquet is a strong heal. However, your next attack gets multiplied by 0.5.
+    (10)Drain is a good attack to compliment a red dice. You attack and heal for the damage dealt in your next turn.
+
+2. LANCELOT is a character class that focuses on blocking. LANCELOT can throw only one dice, but can chain two or more die of the same colour.
+    He has 75 HP.
+    He can only throw red, blue and black die.
+    His actions are as follows:
+    BLUE-
+    (20)Armour is a strong block. Your value is increased by 15.
+    (10)Reflect is a good action to counter enemy attack and chain die. You block, and if all the damage is blocked, you attack for the damage received. However if all the damage is not blocked, you throw a dice. This action cannot be played twice the same turn.
+
+    RED-
+    (20)Crush is a good attack for chaining die. If you roll 5 or less, you throw an additional red dice. If you roll 15 or above, your damage gets multiplied by 1.5.
+    (10)Charge is an extremely strong attack, if used well. You attack for the value of your block. However, your block is removed. If you roll 15 or above, your damage gets multiplied by 1.5. This action cannot be played again for two turns.
+    (20)Focus is a good action if you have extra die. You increase your damage by the value for the rest of the game. This action cannot be played again for one turn.
+    (10)Swing is a weak attack, but it is an excellent action for chaining die. If you are shielded, you attack again and throw a dice. This action cannot be played twice the same turn.
+
+    BLACK-
+    (10)Regenerate is a strong heal over time. You heal for the value with an additional 10 health for the next 3 turns. This action cannot be played again for one turn.
+    (20)Piercer is an extremely strong attack, if you are lucky. If you roll 20, your value is multiplied by 1.5 and then doubled. If you roll 15 or less, you reroll. Otherwise you deal no damage. This action cannot be played again for a turn.
+    (20)Balanced strike is a strong attack. You roll three dice and attack for the average value with an additional 10 damage. This action cannot be played again for a turn.
+    (20)Conserve energy is a good heal. You roll an additional dice next turn. This action cannot be played twice the same turn.
+
+3. MASTER is a character class that focuses on healing. MASTER can throw three dice, and can throw the same colour any number of times.
+    He has 100 HP.
+    He can throw all four colours.
+    His actions are as follows:
+    BLUE-
+    (10)Terra infusion is a good block. If you roll 3 or less, you can play Shockwave.
+    (10)Caeli infusion is an action that increases your defence to a maximum of 25. If you roll 3 or less, you can play Typhoon.
+    Dodge is a last resort action to avoid extremely high levels of incoming damage. You take no damage this turn, but you skip your next turn. This action cannot be played again for one turn.
+
+    RED-
+    (10)Ignis infusion is a good attack. If you roll 3 or less, you can play Laserbeam.
+    (20)Needle is a good attack that gets stronger the more you use it. If you roll 11 or more, you attack for 20. Otherwise you attack for 0.
+    Thorns is a risky action. All your damage is multiplied by 1.5. However, all your shields and heals are halved for the rest of the game. This action cannot be played again for the rest of the game.
+
+    GREEN-
+    (10)Aqua infusion is a weak heal. If you roll 3 or less, you can play Assimilate.
+    (10)Pneuma infusion is a weak heal. You gain a buff and debuff the enemy twice. If you roll 3 or less, you can play Ruminate.
+    Preservation is an option that may save you from intense pressure applied by the enemy. You can only take damage up to 40 and ignore debuffs. However, you only throw only two dice for the rest of the game. This action cannot be played again for the rest of the game.
+
+    BLACK-
+    (20)Shockwave is a strong block and attack. You block twice and attack for the value. This action cannot be played twice the same turn.
+    (20)Typhoon is a very strong and versatile attack. You attack, and the value is increased by 10. If played after Laserbeam, you burn the enemy. If played after Assimilate, you decrease the enemy's defence. If played after Shockwave, you have a 25% chance of stunning the enemy. This action cannot be played twice the same turn.
+    (20)Laserbeam is an extremely strong attack. You attack twice and burn the enemy. This action cannot be played twice the same turn.
+    (20)Assimilate is a strong attack and potentially a good heal. You attack twice and heal for the damage dealt. This action cannot be played twice the same turn.
+    (20)Ruminate is a very useful action. You gain a temporary damage and defence buff and all your actions have no cooldowns next turn. This action cannot be played again for two turns.
+    (20)Vitalize is an extremely strong heal. You heal with an additional 15 health and increase your max HP by the value. This action cannot be played twice the same turn.
